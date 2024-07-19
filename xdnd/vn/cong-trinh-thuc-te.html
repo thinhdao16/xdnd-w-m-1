@@ -52,7 +52,20 @@
     integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
     crossorigin="anonymous" />
 
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+      if (isMobile) {
+        if (!window.location.href.includes('m.')) {
+          window.location.href = window.location.href.replace('://', '://m-');
+        }
+      }
+    });
+  </script>
 
+  <script src="../Scripts/construction-real.js">
+
+  </script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-74723545-6"></script>
@@ -63,6 +76,7 @@
 
     gtag('config', 'UA-74723545-6');
   </script>
+
   <!--CSS-->
   <link href="../bundles-web/cssc805.css?v=t-2_Iu73d3bbX2uuPG--ohcZMDgxJF0Jhz9YL-lT_xQ1" rel="stylesheet" />
 
@@ -795,85 +809,8 @@
         <hr class="mt-1 mb-6">
         <ul class="columns is-multiline is-variable is-6" data-repeat="true" data-rows="10" data-type="blog-list"
           data-source="637603845743302894" data-sort="1" data-pagination="true">
-          <li class="column is-full">
-            <div class="columns is-variable is-3">
-              <div class="column is-5">
-                <ul class="columns is-variable is-1 project_images">
-                  <li class="column is-two-thirds">
-                    <a class="image is-4by5 is_cover is_radius"
-                      href="huy-house-nha-cap-4-co-gac-lung-doc-dao-an-tuong.html"
-                      style="background-image: url('../thumb/images/202405/161455-h1.jpg');"></a>
-                  </li>
-                  <li class="column is-one-third">
-                    <div class="columns is-variable is-multiline is-1 is-relative" data-rows="3" data-type="images"
-                      data-source="post" data-count="26">
-                      <p class="column is-full">
-                        <a class="image is-5by4 is_cover is_radius"
-                          href="huy-house-nha-cap-4-co-gac-lung-doc-dao-an-tuong.html"
-                          style="background-image: url('../thumb/images/202405/161455-h2.jpg');"></a>
-                      </p>
 
-                      <p class="column is-full">
-                        <a class="image is-5by4 is_cover is_radius"
-                          href="huy-house-nha-cap-4-co-gac-lung-doc-dao-an-tuong.html"
-                          style="background-image: url('../thumb/images/202405/161455-h3.jpg');"></a>
-                      </p>
-
-                      <p class="column is-full">
-                        <a class="image is-5by4 is_cover is_radius"
-                          href="huy-house-nha-cap-4-co-gac-lung-doc-dao-an-tuong.html"
-                          style="background-image: url('../thumb/images/202405/161456-h4.jpg');"></a>
-                      </p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div class="column is-7">
-                <div class="has-background-white-bis is_radius px-5 py-3 font_14" style="min-height: 100%;">
-                  <h3 class="has-text-weight-semibold is-size-5 mb-2">
-                    <a href="huy-house-nha-cap-4-co-gac-lung-doc-dao-an-tuong.html">Huy House - Nhà cấp 4 có gác lửng
-                      độc đáo, ấn tượng</a>
-                  </h3>
-                  <div class="text_3_line mb-2">
-
-                  </div>
-                  <div class="columns is-multiline is-variable is-0 project_attr" data-type="attributes"
-                    data-source="post">
-                    <p class="column is-half">
-                      <span class="is_title">Diện tích đất</span>
-                      <span class="is_value">100 m2</span>
-                    </p>
-
-                    <p class="column is-half">
-                      <span class="is_title">Chi phí thi công</span>
-                      <span class="is_value">900 triệu</span>
-                    </p>
-
-                    <p class="column is-half">
-                      <span class="is_title">Địa điểm</span>
-                      <span class="is_value">Bình Phước</span>
-                    </p>
-
-                    <p class="column is-half">
-                      <span class="is_title">Tổng diện tích sàn</span>
-                      <span class="is_value">110 m2</span>
-                    </p>
-
-                    <p class="column is-half">
-                      <span class="is_title">Loại công trình</span>
-                      <span class="is_value">Nhà cấp 4</span>
-                    </p>
-
-                    <p class="column is-half">
-                      <span class="is_title">Năm thiết kế</span>
-                      <span class="is_value">2023</span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-
+          <div id="add-construction-real"></div>
           <!-- <li class="column is-full">
             <div class="columns is-variable is-3">
               <div class="column is-5">

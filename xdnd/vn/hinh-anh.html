@@ -63,6 +63,7 @@
 
     gtag('config', 'UA-74723545-6');
   </script>
+  <script src="../Scripts//api-hinh-anh.js"></script>
   <!--CSS-->
   <link href="../bundles-web/cssc805.css?v=t-2_Iu73d3bbX2uuPG--ohcZMDgxJF0Jhz9YL-lT_xQ1" rel="stylesheet" />
 
@@ -753,7 +754,19 @@
         </div>
       </div>
     </section>
+    <!-- 
+    <div id="apiData" onclick="handleImageClick('apiData')">
+      abcs
+    </div> -->
+    <button onclick="loadWordDocument()">Tải Tệp Word</button>
+    <div id="content"></div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.6.0/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/docxtemplater/3.25.0/docxtemplater.js"></script>
+    <script src="script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.4.2/mammoth.browser.min.js"></script>
+    <script src="script.js"></script>
     <!-- Images -->
     <section class="pb-6">
       <div class="container">
@@ -989,7 +1002,7 @@
 
   <script
     src="../../sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.4/libs/oversea/index.js"></script>
-  <script>
+  <!-- <script>
     new CozeWebSDK.WebChatClient({
       config: {
         bot_id: '7384364827894169608',
@@ -998,7 +1011,7 @@
         title: 'Coze',
       },
     });
-  </script>
+  </script> -->
 </body>
 
 <!-- Mirrored from mm2.vn/vn/hinh-anh.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jun 2024 12:07:06 GMT -->
