@@ -51,7 +51,6 @@
   <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
     integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
     crossorigin="anonymous" />
-
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       var isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
@@ -72,18 +71,109 @@
 
     gtag('config', 'UA-74723545-6');
   </script>
-  <script src="../Scripts/project.js">
+
 
   </script>
   <!--CSS-->
+
+
+
+
   <link href="../bundles-web/cssc805.css?v=t-2_Iu73d3bbX2uuPG--ohcZMDgxJF0Jhz9YL-lT_xQ1" rel="stylesheet" />
 
   <style>
+    .slideshow-container {
+      position: relative;
+      max-width: 100%;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    .mySlides {
+      display: none;
+      width: 100%;
+    }
+
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active,
+    .dot:hover {
+      background-color: #717171;
+    }
+
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    /* chẹc */
+
+
     :root {
       --color-main: #BD0000;
       --color-extra: #485fc7;
       --color-bg: #EBECF0;
       --color-text: #61677C;
+    }
+
+    .grid_images {
+      margin-left: -1rem;
+      margin-right: -1rem;
+    }
+
+    .grid_images .grid-item {
+      width: calc(100% / 3);
+      padding: 1rem;
+      transition: all 0.5s;
+    }
+
+    .grid_images .grid-item.loading {
+      opacity: 0;
     }
 
     .image img {
@@ -191,6 +281,36 @@
     .nivoSlider {
       background-color: transparent;
       box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+    }
+
+    .nivoSlider a.nivo-imageLink {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      padding: 0;
+      margin: 0;
+      z-index: 6;
+      display: none;
+      background: white;
+      filter: alpha(opacity=0);
+      opacity: 0;
+    }
+
+    .nivoSlider.full_screen {
+      max-height: none;
+      height: 100vh;
+    }
+
+    .nivoSlider.full_screen .nivo-main-image,
+    .nivoSlider.full_screen .nivo-imageLink img,
+    .nivoSlider.full_screen img {
+      width: auto !important;
+      height: 100% !important;
+      min-width: 100% !important;
+      max-height: none;
     }
 
     .nivo-directionNav a {
@@ -770,36 +890,19 @@
         <div class="pb-4 is-flex is-vcentered">
           <h2 class="has-text-weight-bold is-size-5 color_main">Dự án nổi bật</h2>
         </div>
-        <ul class="columns is-multiline is-variable is-4" data-repeat="true" data-rows="3" data-type="blogs"
-          data-source="637603845277462691" data-sort="5">
-          <li class="column is-one-third">
-            <div class="card">
-              <div class="card-image">
-                <a class="image is-4by5 is_cover" href="nha-pho-5m-mat-tien-don-gian-ty-le-dep.html"
-                  style="background-image: url('../thumb/images/202206/241157-1.jpg');"></a>
-              </div>
-            </div>
-          </li>
+        <div class="slideshow-container">
+          <!-- Slides will be inserted here dynamically -->
+        </div>
 
-          <li class="column is-one-third">
-            <div class="card">
-              <div class="card-image">
-                <a class="image is-4by5 is_cover"
-                  href="hien-house-thiet-ke-v%c3%a0-cai-tao-lai-nha-cap-4-dep-chi-phi-thap.html"
-                  style="background-image: url('../thumb/images/202306/291812-h1.jpg');"></a>
-              </div>
-            </div>
-          </li>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-          <li class="column is-one-third">
-            <div class="card">
-              <div class="card-image">
-                <a class="image is-4by5 is_cover" href="dung-house-mau-nha-truyen-thong-co-san-vuon-an-tuong.html"
-                  style="background-image: url('../thumb/images/202310/021447-h1.jpg');"></a>
-              </div>
-            </div>
-          </li>
-        </ul>
+        <br>
+
+        <div class="dot-container">
+          <!-- Dots will be inserted here dynamically -->
+        </div>
+
       </div>
     </section>
 
@@ -994,6 +1097,36 @@
   </a>
 
   <!--Javascript-->
+  <script src="../Scripts/project.js"></script>
+  <script src="../bundles-web/js3344?v=0bXldwiLnXLnKFIa84USXsFFd6bWRB9beaS_rLuNSJM1"></script>
+
+  <script src="../Scripts/jquery.nivo.slider.js"></script>
+  <script src="../Scripts/masonry.pkgd.min.js"></script>
+  <script src="../Scripts/imagesloaded.pkgd.js"></script>
+
+  <script>
+    window.runParams = {
+      id: 0,
+      link: location.pathname + location.search,
+      tags: '',
+      lang: 'vn'
+    };
+    $('#slider_home .nivoSlider').nivoSlider({
+      manualAdvance: false,
+      effect: 'random',
+      animSpeed: 1000,
+      pauseTime: 5000,
+      pauseOnHover: true
+    });
+
+    var $grid = $('.grid_images').masonry({
+      itemSelector: '.grid-item',
+      percentPosition: true
+    });
+    $grid.imagesLoaded().progress(function () {
+      $grid.masonry();
+    });
+  </script>
   <script src="../bundles-web/js3344?v=0bXldwiLnXLnKFIa84USXsFFd6bWRB9beaS_rLuNSJM1"></script>
 
 
