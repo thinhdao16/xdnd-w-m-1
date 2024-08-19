@@ -5,11 +5,10 @@ let dulieu, nguhanh;
 function getAppData(token) {
   $.ajax({
     type: "GET",
-    url: "/apiv1/files/get",
-    data: { token, name: 'xemtuoi' }
+    url: "/mm2.vn/upload/files/xemtuoi.json",
   }).done(function (res) {
     try {
-      dulieu = JSON.parse(res);
+      dulieu = res
     } catch (error) {
       showNotify('Không thể lấy dữ liệu ứng dựng !', false);
       console.log('Không thể lấy dữ liệu ứng dựng !');
@@ -18,11 +17,10 @@ function getAppData(token) {
 
   $.ajax({
     type: "GET",
-    url: "/apiv1/files/get",
-    data: { token, name: 'nguhanh' }
+    url: "/mm2.vn/upload/files/nguhanh.json",
   }).done(function (res) {
     try {
-      nguhanh = JSON.parse(res);
+      nguhanh = res
     } catch (error) {
       showNotify('Không thể lấy dữ liệu ứng dựng !', false);
       console.log('Không thể lấy dữ liệu ứng dựng !');

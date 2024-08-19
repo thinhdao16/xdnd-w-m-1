@@ -9,11 +9,10 @@ let dongia, thongso, thongso_nhapho, thongso_biethu, thongso_cap4;
 function getAppData(token) {
   $.ajax({
     type: "GET",
-    url: "/apiv1/files/get",
-    data: { token, name: 'don-gia' }
-  }).done(function(res) {
+    url: "/mm2.vn/upload/files/location.json",
+  }).done(function (res) {
     try {
-      dongia = JSON.parse(res);
+      dongia = res
       let strItem = '';
       dongia.forEach(item => {
         strItem += `<option value="${item.stt}">${item.tinh_thanh}</option>`;
@@ -21,18 +20,16 @@ function getAppData(token) {
       $('#diadiem').html(strItem);
       $('#diadiem').val('15');
     } catch (error) {
-      showNotify('Không thể lấy dữ liệu ứng dựng !', false);
       console.log('Không thể lấy dữ liệu ứng dựng !');
     }
   });
 
   $.ajax({
     type: "GET",
-    url: "/apiv1/files/get",
-    data: { token, name: 'thongso-nhapho' }
-  }).done(function(res) {
+    url: "/mm2.vn/upload/files/thongso-nhapho.json",
+  }).done(function (res) {
     try {
-      thongso_nhapho = JSON.parse(res);
+      thongso_nhapho = res;
     } catch (error) {
       showNotify('Không thể lấy dữ liệu ứng dựng !', false);
       console.log('Không thể lấy dữ liệu ứng dựng !');
@@ -41,11 +38,10 @@ function getAppData(token) {
 
   $.ajax({
     type: "GET",
-    url: "/apiv1/files/get",
-    data: { token, name: 'thongso-bietthu' }
-  }).done(function(res) {
+    url: "/mm2.vn/upload/files/thongso-bietthu.json",
+  }).done(function (res) {
     try {
-      thongso_biethu = JSON.parse(res);
+      thongso_biethu = res;
     } catch (error) {
       showNotify('Không thể lấy dữ liệu ứng dựng !', false);
       console.log('Không thể lấy dữ liệu ứng dựng !');
@@ -54,11 +50,10 @@ function getAppData(token) {
 
   $.ajax({
     type: "GET",
-    url: "/apiv1/files/get",
-    data: { token, name: 'thongso-cap4' }
-  }).done(function(res) {
+    url: "/mm2.vn/upload/files/thongso-cap4.json",
+  }).done(function (res) {
     try {
-      thongso_cap4 = JSON.parse(res);
+      thongso_cap4 = res;
     } catch (error) {
       showNotify('Không thể lấy dữ liệu ứng dựng !', false);
       console.log('Không thể lấy dữ liệu ứng dựng !');

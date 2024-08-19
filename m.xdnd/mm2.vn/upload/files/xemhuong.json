@@ -1,0 +1,274 @@
+{
+    "canh": [
+        "Canh",
+        "Tân",
+        "Nhâm",
+        "Quý",
+        "Giáp",
+        "Ất",
+        "Bính",
+        "Đinh",
+        "Mậu",
+        "Ký"
+    ],
+    "giap": [
+        {
+            "item": [
+                "Thân",
+                "Dậu",
+                "Tuất",
+                "Hợi",
+                "Tí",
+                "Sửu",
+                "Dần",
+                "Mão",
+                "Thìn",
+                "Tỵ",
+                "Ngọ",
+                "Mùi"
+            ]
+        },
+        {
+            "item": [
+                "Tí",
+                "Sửu",
+                "Dần",
+                "Mão",
+                "Thìn",
+                "Tỵ",
+                "Ngọ",
+                "Mùi",
+                "Thân",
+                "Dậu",
+                "Tuất",
+                "Hợi"
+            ]
+        },
+        {
+            "item": [
+                "Thìn",
+                "Tỵ",
+                "Ngọ",
+                "Mùi",
+                "Thân",
+                "Dậu",
+                "Tuất",
+                "Hợi",
+                "Tí",
+                "Sửu",
+                "Dần",
+                "Mão"
+            ]
+        }
+    ],
+    "cungmenh": [
+        {
+            "item": [
+                "Khôn",
+                "Tốn"
+            ]
+        },
+        {
+            "item": [
+                "Khảm",
+                "Cấn"
+            ]
+        },
+        {
+            "item": [
+                "Ly",
+                "Càn"
+            ]
+        },
+        {
+            "item": [
+                "Cấn",
+                "Đoài"
+            ]
+        },
+        {
+            "item": [
+                "Đoài",
+                "Cấn"
+            ]
+        },
+        {
+            "item": [
+                "Càn",
+                "Ly"
+            ]
+        },
+        {
+            "item": [
+                "Khôn",
+                "Khảm"
+            ]
+        },
+        {
+            "item": [
+                "Tốn",
+                "Khôn"
+            ]
+        },
+        {
+            "item": [
+                "Chấn",
+                "Chấn"
+            ]
+        },
+        {
+            "item": [
+                "Khôn",
+                "Tốn"
+            ]
+        }
+    ],
+    "huongtot": [
+        {
+            "menh": "Càn",
+            "sk": "Tây",
+            "ty": "Đông bắc",
+            "dn": "Tây nam",
+            "pv": "Tây bắc"
+        },
+        {
+            "menh": "Đoài",
+            "sk": "Tây bắc",
+            "ty": "Tây nam",
+            "dn": "Đông bắc",
+            "pv": "Tây"
+        },
+        {
+            "menh": "Cấn",
+            "sk": "Tây nam",
+            "ty": "Tây bắc",
+            "dn": "Tây",
+            "pv": "Đông bắc"
+        },
+        {
+            "menh": "Khôn",
+            "sk": "Đông bắc",
+            "ty": "Tây",
+            "dn": "Tây Bắc",
+            "pv": "Tây nam"
+        },
+        {
+            "menh": "Ly",
+            "sk": "Đông",
+            "ty": "Đông nam",
+            "dn": "Bắc",
+            "pv": "Nam"
+        },
+        {
+            "menh": "Khảm",
+            "sk": "Đông nam",
+            "ty": "Đông",
+            "dn": "Nam",
+            "pv": "Bắc"
+        },
+        {
+            "menh": "Tốn",
+            "sk": "Bắc",
+            "ty": "Nam",
+            "dn": "Đông",
+            "pv": "Đông nam"
+        },
+        {
+            "menh": "Chấn",
+            "sk": "Nam",
+            "ty": "Bắc",
+            "dn": "Đông nam",
+            "pv": "Đông"
+        }
+    ],
+    "hientai": [
+        {
+            "menh": "Càn",
+            "d": "Ngũ quỷ",
+            "t": "Sinh khí",
+            "n": "Tuyệt mệnh",
+            "b": "Lục sát",
+            "db": "Thiên y",
+            "dn": "Họa hại",
+            "tb": "Phục vị",
+            "tn": "Diên niên"
+        },
+        {
+            "menh": "Đoài",
+            "d": "Tuyệt mệnh",
+            "t": "Phục vị",
+            "n": "Ngũ quỷ",
+            "b": "Họa hại",
+            "db": "Diên niên",
+            "dn": "Lục sát",
+            "tb": "Sinh khí",
+            "tn": "Thiên y"
+        },
+        {
+            "menh": "Cấn",
+            "d": "Lục sát",
+            "t": "Diên niên",
+            "n": "Họa hại",
+            "b": "Ngũ quỷ",
+            "db": "Phục vị",
+            "dn": "Tuyệt mệnh",
+            "tb": "Thiên y",
+            "tn": "Sinh khí"
+        },
+        {
+            "menh": "Khôn",
+            "d": "Họa hại",
+            "t": "Thiên y",
+            "n": "Lục sát",
+            "b": "Tuyệt mệnh",
+            "db": "Sinh khí",
+            "dn": "Ngũ quỷ",
+            "tb": "Diên niên",
+            "tn": "Phục vị"
+        },
+        {
+            "menh": "Ly",
+            "d": "Sinh khí",
+            "t": "Ngũ quỷ",
+            "n": "Phục vị",
+            "b": "Diên niên",
+            "db": "Họa hại",
+            "dn": "Thiên y",
+            "tb": "Tuyệt mệnh",
+            "tn": "Lục sát"
+        },
+        {
+            "menh": "Khảm",
+            "d": "Thiên y",
+            "t": "Họa hại",
+            "n": "Diên niên",
+            "b": "Phục vị",
+            "db": "Ngũ quỷ",
+            "dn": "Sinh khí",
+            "tb": "Lục sát",
+            "tn": "Tuyệt mệnh"
+        },
+        {
+            "menh": "Tốn",
+            "d": "Diên niên",
+            "t": "Lục sát",
+            "n": "Thiên y",
+            "b": "Sinh khí",
+            "db": "Tuyệt mệnh",
+            "dn": "Phục vị",
+            "tb": "Họa hại",
+            "tn": "Ngũ quỷ"
+        },
+        {
+            "menh": "Chấn",
+            "d": "Phục vị",
+            "t": "Tuyệt mệnh",
+            "n": "Sinh khí",
+            "b": "Thiên y",
+            "db": "Lục sát",
+            "dn": "Diên niên",
+            "tb": "Ngũ quỷ",
+            "tn": "Họa hại"
+        }
+    ]
+}

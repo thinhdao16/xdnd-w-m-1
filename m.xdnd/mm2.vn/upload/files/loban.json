@@ -1,0 +1,276 @@
+{
+    "lb52": [
+        {
+            "khoan": "Quý nhân",
+            "tot": true,
+            "cung": [
+                "Quyền lộc",
+                "Trung tín",
+                "Tác quan",
+                "Phát đạt",
+                "Thông minh"
+            ]
+        },
+        {
+            "khoan": "Hiểm họa",
+            "tot": false,
+            "cung": [
+                "Án thành",
+                "Hỗn nhân",
+                "Thất hiếu",
+                "Tai họa",
+                "Trường bệnh"
+            ]
+        },
+        {
+            "khoan": "Thiên tại",
+            "tot": false,
+            "cung": [
+                "Hoàn tử",
+                "Quan tài",
+                "Thân tàn",
+                "Thất tài",
+                "Hệ quả"
+            ]
+        },
+        {
+            "khoan": "Thiên tài",
+            "tot": true,
+            "cung": [
+                "Thi thơ",
+                "Văn học",
+                "Thanh quý",
+                "Taài lộc",
+                "Thiên lộc"
+            ]
+        },
+        {
+            "khoan": "Nhân lộc",
+            "tot": true,
+            "cung": [
+                "Trí tồn",
+                "Phú quý",
+                "Tiến bửu",
+                "Thệp thiện",
+                "Văn chương"
+            ]
+        },
+        {
+            "khoan": "Cô độc",
+            "tot": false,
+            "cung": [
+                "Bạc nghịch",
+                "Vô vọng",
+                "Ly tán",
+                "Tửu thục",
+                "Dâm dục"
+            ]
+        },
+        {
+            "khoan": "Thiên tặc",
+            "tot": false,
+            "cung": [
+                "Phong bệnh",
+                "Chiêu ôn",
+                "Ôn tài",
+                "Ngục từ",
+                "Quang tài"
+            ]
+        },
+        {
+            "khoan": "Tể tướng",
+            "tot": true,
+            "cung": [
+                "Đại tài",
+                "Thi thơ",
+                "Hoạch tài",
+                "Hiếu tử",
+                "Quý nhân"
+            ]
+        }
+    ],
+    "lb42": [
+        {
+            "khoan": "Tài",
+            "tot": true,
+            "cung": [
+                "Tài đức",
+                "Bảo khổ",
+                "Lục hợp",
+                "Nghênh Phúc"
+            ]
+        },
+        {
+            "khoan": "Bệnh",
+            "tot": false,
+            "cung": [
+                "Thoái tài",
+                "Cộng sự",
+                "Lao chấp",
+                "Cô quả"
+            ]
+        },
+        {
+            "khoan": "Ly",
+            "tot": false,
+            "cung": [
+                "Trường bệnh",
+                "Kiếp tài",
+                "Quan qui",
+                "Thất thoát"
+            ]
+        },
+        {
+            "khoan": "Nghĩa",
+            "tot": true,
+            "cung": [
+                "Thêm Đinh",
+                "Ích lợi",
+                "Quí tử",
+                "Đại cát"
+            ]
+        },
+        {
+            "khoan": "Quan",
+            "tot": true,
+            "cung": [
+                "Thuận khoa",
+                "Hoạch tài",
+                "Tâm đức",
+                "Phú quí"
+            ]
+        },
+        {
+            "khoan": "Kiếp",
+            "tot": false,
+            "cung": [
+                "Tủ biệt",
+                "Khoái khẩu",
+                "Ly hương",
+                "Thất tài"
+            ]
+        },
+        {
+            "khoan": "Hại",
+            "tot": false,
+            "cung": [
+                "Tai chi",
+                "Tử huyệt",
+                "Lâm bệnh",
+                "Khẩu thiệt"
+            ]
+        },
+        {
+            "khoan": "Bản",
+            "tot": true,
+            "cung": [
+                "Tài chí",
+                "Đăng khoa",
+                "Tiến bảo",
+                "Hưng vượng"
+            ]
+        }
+    ],
+    "lb38": [
+        {
+            "khoan": "Đinh",
+            "tot": true,
+            "cung": [
+                "Phúc tinh",
+                "Cấp đệ",
+                "Tài Vượng",
+                "Đăng khoa"
+            ]
+        },
+        {
+            "khoan": "Hại",
+            "tot": false,
+            "cung": [
+                "Khẩu thiệt",
+                "Lâm bệnh",
+                "Tử tuyệt",
+                "Tai chi"
+            ]
+        },
+        {
+            "khoan": "Vượng",
+            "tot": true,
+            "cung": [
+                "Thiên đức",
+                "Hỷ sự",
+                "Tiến bảo",
+                "Nạp phúc"
+            ]
+        },
+        {
+            "khoan": "Khổ",
+            "tot": false,
+            "cung": [
+                "Thất thoát",
+                "Quan qui",
+                "Kiếp tài",
+                "Vô tự"
+            ]
+        },
+        {
+            "khoan": "Nghĩa",
+            "tot": true,
+            "cung": [
+                "Đại cát",
+                "Taài vượng",
+                "Ích lợi",
+                "Thiên khố"
+            ]
+        },
+        {
+            "khoan": "Quan",
+            "tot": true,
+            "cung": [
+                "Phú quí",
+                "Tiến bảo",
+                "Hoạch tài",
+                "Thuận khoa"
+            ]
+        },
+        {
+            "khoan": "Tử",
+            "tot": false,
+            "cung": [
+                "Ly hương",
+                "Tử biệt",
+                "Thoái đình",
+                "Thất tài"
+            ]
+        },
+        {
+            "khoan": "Hưng",
+            "tot": true,
+            "cung": [
+                "Đông khoa",
+                "Qui tử",
+                "Têm đinh",
+                "Hưng vượng"
+            ]
+        },
+        {
+            "khoan": "Thất",
+            "tot": false,
+            "cung": [
+                "Cô quả",
+                "Lap chấp",
+                "Công sự",
+                "Thoát tài"
+            ]
+        },
+        {
+            "khoan": "Tài",
+            "tot": true,
+            "cung": [
+                "Nghênh phúc",
+                "Lục hợp",
+                "Tiến bảo",
+                "Tài đức"
+            ]
+        }
+    ]
+}
