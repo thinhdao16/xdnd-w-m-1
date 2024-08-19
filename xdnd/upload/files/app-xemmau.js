@@ -4,11 +4,10 @@ let dulieu;
 function getAppData(token) {
   $.ajax({
     type: "GET",
-    url: "/apiv1/files/get",
-    data: { token, name: 'xemmau' }
+    url: "/upload/files/xemmau.json",
   }).done(function (res) {
     try {
-      dulieu = JSON.parse(res);
+      dulieu = res
     } catch (error) {
       showNotify('Không thể lấy dữ liệu ứng dựng !', false);
       console.log('Không thể lấy dữ liệu ứng dựng !');

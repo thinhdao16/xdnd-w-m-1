@@ -1,15 +1,13 @@
 ﻿let namsinh = 0;
 let namxay = 0;
 let dulieu, nguhanh;
-
 function getAppData(token) {
   $.ajax({
     type: "GET",
-    url: "/apiv1/files/get",
-    data: { token, name: 'xemtuoi' }
+    url: "/upload/files/xemtuoi.json",
   }).done(function (res) {
     try {
-      dulieu = JSON.parse(res);
+      dulieu = res
     } catch (error) {
       showNotify('Không thể lấy dữ liệu ứng dựng !', false);
       console.log('Không thể lấy dữ liệu ứng dựng !');
@@ -18,11 +16,10 @@ function getAppData(token) {
 
   $.ajax({
     type: "GET",
-    url: "/apiv1/files/get",
-    data: { token, name: 'nguhanh' }
+    url: "/upload/files/nguhanh.json",
   }).done(function (res) {
     try {
-      nguhanh = JSON.parse(res);
+      nguhanh = res
     } catch (error) {
       showNotify('Không thể lấy dữ liệu ứng dựng !', false);
       console.log('Không thể lấy dữ liệu ứng dựng !');
@@ -38,7 +35,6 @@ function reset() {
 function submitStep1() {
   namsinh = $('#input_namsinh').val() !== '' ? parseInt($('#input_namsinh').val()) : 0;
   namxay = $('#input_namxay').val() !== '' ? parseInt($('#input_namxay').val()) : 0;
-
   if (namsinh > 0 && namxay > 0) {
     $('#step1').addClass('is-hidden');
     $('#step2').removeClass('is-hidden');
@@ -147,6 +143,7 @@ function getHoangOc(tuoi) {
 }
 
 function toiTotLamNha(namxay) {
+  console.log(dulieu)
   for (let i = 0; i < dulieu.tuoitot.length; i++) {
     const tuoitot = dulieu.tuoitot[i];
     if (tuoitot.id === namxay) {

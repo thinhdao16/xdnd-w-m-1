@@ -1,0 +1,92 @@
+{
+    "khu_dat": [
+        {
+            "name": "đường dưới 3m",
+            "value": 0.05
+        },
+        {
+            "name": "đường dưới 5m",
+            "value": 0.02
+        },
+        {
+            "name": "đường 7,5m hoặc lớn hơn",
+            "value": 0
+        }
+    ],
+    "vi_tri_nha": [
+        {
+            "name": "đặt nhà ở giữa khu đất",
+            "value": 0.2
+        },
+        {
+            "name": "1 cạnh giáp với hàng xóm",
+            "value": 0.15
+        },
+        {
+            "name": "2 cạnh giáp hàng xóm",
+            "value": 10
+        },
+        {
+            "name": "3 cạnh giáp hàng xóm",
+            "value": 0
+        }
+    ],
+    "ket_cau_mong": [
+        {
+            "name": "móng đơn",
+            "value": 0.25
+        },
+        {
+            "name": "móng băng 1 phương",
+            "value": 0.45
+        },
+        {
+            "name": "móng băng 2 phương",
+            "value": 0.75
+        }
+    ],
+    "ket_cau_mai": [
+        {
+            "name": "mái BTCT phẳng (mái bằng)",
+            "value": 900000
+        },
+        {
+            "name": "mái xà gồ thép tôn chống nóng dốc",
+            "value": 500000
+        },
+        {
+            "name": "mái xà gồ thép lợp ngói dốc",
+            "value": 950000
+        },
+        {
+            "name": "mái BTCT dán ngói dốc",
+            "value": 1650000
+        },
+        {
+            "name": "mái BTCT phẳng lợp tôn chống nóng dốc",
+            "value": 1400000
+        },
+        {
+            "name": "mái BTCT phẳng lợp ngói chống nóng dốc",
+            "value": 1850000
+        }
+    ],
+    "san_vuon": [
+        {
+            "name": "Hơn 60% diện tích trồng cây xanh",
+            "value": 350000
+        },
+        {
+            "name": "Hơn 80% diện tích là cây xanh thảm cỏ",
+            "value": 250000
+        },
+        {
+            "name": "Hơn 60% diện tích lát nền hoặc thảm bê tông",
+            "value": 550000
+        },
+        {
+            "name": "Hơn 80% diện tích lát nền hoặc thảm bê tông",
+            "value": 650000
+        }
+    ]
+}

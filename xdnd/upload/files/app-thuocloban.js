@@ -7,24 +7,23 @@ function getAppData(token) {
   $('.loban-scroller').css('opacity', '0');
   $.ajax({
     type: "GET",
-    url: "/apiv1/files/get",
-    data: { token, name: 'loban' }
+    url: "/upload/files/loban.json",
   }).done(function (res) {
     try {
-      dataLoban = JSON.parse(res);
-      
+      dataLoban = res;
+
       const strRuler = $(`.loban_ruler`);
       for (let cm = 0; cm <= lobanMax; cm++) {
         strRuler.append(`<li class="is_cm" data-title="${cm} cm"></li>`);
       }
-      
+
       renderLoban(652.5, 130.5, 'lb52');
       renderLoban(536.25, 134.0625, 'lb42');
       renderLoban(388, 97, 'lb38');
 
       $('.loban-scroller').css('opacity', '1');
       $('.loban-scroller').css('width', lobanMax + '01px');
-      
+
       myScroll = new IScroll('#thuocloban', {
         scrollX: true,
         scrollY: false,
@@ -47,12 +46,12 @@ function getAppData(token) {
 
   document.getElementById("measure")
     .addEventListener("keyup", function (event) {
-    event.preventDefault();
-    if (event.keyCode == 13) {
-      const x = parseInt(this.value) * -10 + lobanSpace;
-      myScroll.scrollTo(x, 0);
-    }
-  });
+      event.preventDefault();
+      if (event.keyCode == 13) {
+        const x = parseInt(this.value) * -10 + lobanSpace;
+        myScroll.scrollTo(x, 0);
+      }
+    });
 }
 
 function getMeasure(x) {

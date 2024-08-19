@@ -1,0 +1,102 @@
+{
+    "khu_dat": [
+        {
+            "name": "đường dưới 3m",
+            "value": 0.1
+        },
+        {
+            "name": "đường dưới 5m",
+            "value": 0.05
+        },
+        {
+            "name": "đường 7,5m hoặc lớn hơn",
+            "value": 0
+        }
+    ],
+    "nha_lan_can": [
+        {
+            "name": "hai bên có nhà",
+            "value": 30000000
+        },
+        {
+            "name": "1 bên có nhà",
+            "value": 20000000
+        },
+        {
+            "name": "cả hai bên đều chưa có nhà",
+            "value": 0
+        }
+    ],
+    "mat_tien": [
+        {
+            "name": "một mặt tiền",
+            "value": 0
+        },
+        {
+            "name": "hai mặt tiền",
+            "value": 500000
+        },
+        {
+            "name": "ba mặt tiền",
+            "value": 800000
+        }
+    ],
+    "ket_cau_mong": [
+        {
+            "name": "móng đơn",
+            "value": 0.15
+        },
+        {
+            "name": "móng băng 1 phương",
+            "value": 0.3
+        },
+        {
+            "name": "móng băng 2 phương",
+            "value": 0.65
+        },
+        {
+            "name": "móng bè",
+            "value": 0.8
+        },
+        {
+            "name": "móng cọc",
+            "value": 1
+        }
+    ],
+    "ket_cau_mai": [
+        {
+            "name": "mái BTCT phẳng, cán nền lát gạch",
+            "value": 0.15
+        },
+        {
+            "name": "mái tôn chống nóng",
+            "value": 0.3
+        },
+        {
+            "name": "mái BTCT phẳng, lợp tôn chống nóng",
+            "value": 0.5
+        },
+        {
+            "name": "mái BTCT phẳng, lợp ngói chống nóng",
+            "value": 0.8
+        },
+        {
+            "name": "mái BTCT dốc dán ngói thẩm mỹ",
+            "value": 1
+        }
+    ],
+    "tang_ham": [
+        {
+            "name": "không",
+            "value": 0
+        },
+        {
+            "name": "có bán hầm",
+            "value": 7000000
+        },
+        {
+            "name": "có tầng hầm",
+            "value": 9500000
+        }
+    ]
+}

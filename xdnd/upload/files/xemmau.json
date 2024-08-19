@@ -1,0 +1,754 @@
+[
+    {
+        "namsinh": 1930,
+        "tuoiam": "Canh Ngọ",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 1931,
+        "tuoiam": "Tân Mùi",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 1932,
+        "tuoiam": "Nhâm Thân",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    },
+    {
+        "namsinh": 1933,
+        "tuoiam": "Quý Dậu",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    },
+    {
+        "namsinh": 1934,
+        "tuoiam": "Giáp Tuất",
+        "menh": "Hỏa",
+        "banmenh": "Tím, cam, đỏ, hồng",
+        "tuongsinh": "Xanh lá cây",
+        "tuongkhac": "Đen, xanh nước biển"
+    },
+    {
+        "namsinh": 1935,
+        "tuoiam": "Ất Hợi",
+        "menh": "Hỏa",
+        "banmenh": "Tím, cam, đỏ, hồng",
+        "tuongsinh": "Xanh lá cây",
+        "tuongkhac": "Đen, xanh nước biển"
+    },
+    {
+        "namsinh": 1936,
+        "tuoiam": "Bính Tý",
+        "menh": "Thủy",
+        "banmenh": "Đen, xanh nước biển",
+        "tuongsinh": "Trắng, xám, vàng nhạt",
+        "tuongkhac": "Nâu, vàng đậm"
+    },
+    {
+        "namsinh": 1937,
+        "tuoiam": "Đinh Sửu",
+        "menh": "Thủy",
+        "banmenh": "Đen, xanh nước biển",
+        "tuongsinh": "Trắng, xám, vàng nhạt",
+        "tuongkhac": "Nâu, vàng đậm"
+    },
+    {
+        "namsinh": 1938,
+        "tuoiam": "Mậu Dần",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 1939,
+        "tuoiam": "Kỷ Mão",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 1940,
+        "tuoiam": "Canh Thìn",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    },
+    {
+        "namsinh": 1941,
+        "tuoiam": "Tân Tỵ",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    },
+    {
+        "namsinh": 1942,
+        "tuoiam": "Nhâm Ngọ",
+        "menh": "Mộc",
+        "banmenh": "Xanh lá cây",
+        "tuongsinh": "Đen, xanh nước biển",
+        "tuongkhac": "Trắng, xám, vàng nhạt"
+    },
+    {
+        "namsinh": 1943,
+        "tuoiam": "Quý Mùi",
+        "menh": "Mộc",
+        "banmenh": "Xanh lá cây",
+        "tuongsinh": "Đen, xanh nước biển",
+        "tuongkhac": "Trắng, xám, vàng nhạt"
+    },
+    {
+        "namsinh": 1944,
+        "tuoiam": "Giáp Thân",
+        "menh": "Thủy",
+        "banmenh": "Đen, xanh nước biển",
+        "tuongsinh": "Trắng, xám, vàng nhạt",
+        "tuongkhac": "Nâu, vàng đậm"
+    },
+    {
+        "namsinh": 1945,
+        "tuoiam": "Ất Dậu",
+        "menh": "Thủy",
+        "banmenh": "Đen, xanh nước biển",
+        "tuongsinh": "Trắng, xám, vàng nhạt",
+        "tuongkhac": "Nâu, vàng đậm"
+    },
+    {
+        "namsinh": 1946,
+        "tuoiam": "Bính Tuất",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 1947,
+        "tuoiam": "Đinh Hợi",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 1948,
+        "tuoiam": "Mậu Tý",
+        "menh": "Hỏa",
+        "banmenh": "Tím, cam, đỏ, hồng",
+        "tuongsinh": "Xanh lá cây",
+        "tuongkhac": "Đen, xanh nước biển"
+    },
+    {
+        "namsinh": 1949,
+        "tuoiam": "Kỷ Sửu",
+        "menh": "Hỏa",
+        "banmenh": "Tím, cam, đỏ, hồng",
+        "tuongsinh": "Xanh lá cây",
+        "tuongkhac": "Đen, xanh nước biển"
+    },
+    {
+        "namsinh": 1950,
+        "tuoiam": "Canh Dần",
+        "menh": "Mộc",
+        "banmenh": "Xanh lá cây",
+        "tuongsinh": "Đen, xanh nước biển",
+        "tuongkhac": "Trắng, xám, vàng nhạt"
+    },
+    {
+        "namsinh": 1951,
+        "tuoiam": "Tân Mão",
+        "menh": "Mộc",
+        "banmenh": "Xanh lá cây",
+        "tuongsinh": "Đen, xanh nước biển",
+        "tuongkhac": "Trắng, xám, vàng nhạt"
+    },
+    {
+        "namsinh": 1952,
+        "tuoiam": "Nhâm Thìn",
+        "menh": "Thủy",
+        "banmenh": "Đen, xanh nước biển",
+        "tuongsinh": "Trắng, xám, vàng nhạt",
+        "tuongkhac": "Nâu, vàng đậm"
+    },
+    {
+        "namsinh": 1953,
+        "tuoiam": "Quý Tỵ",
+        "menh": "Thủy",
+        "banmenh": "Đen, xanh nước biển",
+        "tuongsinh": "Trắng, xám, vàng nhạt",
+        "tuongkhac": "Nâu, vàng đậm"
+    },
+    {
+        "namsinh": 1954,
+        "tuoiam": "Giáp Ngọ",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    },
+    {
+        "namsinh": 1955,
+        "tuoiam": "Ất Mùi",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    },
+    {
+        "namsinh": 1956,
+        "tuoiam": "Bính Thân",
+        "menh": "Hỏa",
+        "banmenh": "Tím, cam, đỏ, hồng",
+        "tuongsinh": "Xanh lá cây",
+        "tuongkhac": "Đen, xanh nước biển"
+    },
+    {
+        "namsinh": 1957,
+        "tuoiam": "Đinh Dậu",
+        "menh": "Hỏa",
+        "banmenh": "Tím, cam, đỏ, hồng",
+        "tuongsinh": "Xanh lá cây",
+        "tuongkhac": "Đen, xanh nước biển"
+    },
+    {
+        "namsinh": 1958,
+        "tuoiam": "Mậu Tuất",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 1959,
+        "tuoiam": "Kỷ Hợi",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 1960,
+        "tuoiam": "Canh Tý",
+        "menh": "Mộc",
+        "banmenh": "Xanh lá cây",
+        "tuongsinh": "Đen, xanh nước biển",
+        "tuongkhac": "Trắng, xám, vàng nhạt"
+    },
+    {
+        "namsinh": 1961,
+        "tuoiam": "Tân Sửu",
+        "menh": "Mộc",
+        "banmenh": "Xanh lá cây",
+        "tuongsinh": "Đen, xanh nước biển",
+        "tuongkhac": "Trắng, xám, vàng nhạt"
+    },
+    {
+        "namsinh": 1962,
+        "tuoiam": "Nhâm Dần",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    },
+    {
+        "namsinh": 1963,
+        "tuoiam": "Quý Mão",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    },
+    {
+        "namsinh": 1964,
+        "tuoiam": "Giáp Thìn",
+        "menh": "Thủy",
+        "banmenh": "Đen, xanh nước biển",
+        "tuongsinh": "Trắng, xám, vàng nhạt",
+        "tuongkhac": "Nâu, vàng đậm"
+    },
+    {
+        "namsinh": 1965,
+        "tuoiam": "Ất Tỵ",
+        "menh": "Thủy",
+        "banmenh": "Đen, xanh nước biển",
+        "tuongsinh": "Trắng, xám, vàng nhạt",
+        "tuongkhac": "Nâu, vàng đậm"
+    },
+    {
+        "namsinh": 1966,
+        "tuoiam": "Bính Ngọ",
+        "menh": "Hỏa",
+        "banmenh": "Tím, cam, đỏ, hồng",
+        "tuongsinh": "Xanh lá cây",
+        "tuongkhac": "Đen, xanh nước biển"
+    },
+    {
+        "namsinh": 1967,
+        "tuoiam": "Đinh Mùi",
+        "menh": "Hỏa",
+        "banmenh": "Tím, cam, đỏ, hồng",
+        "tuongsinh": "Xanh lá cây",
+        "tuongkhac": "Đen, xanh nước biển"
+    },
+    {
+        "namsinh": 1968,
+        "tuoiam": "Mậu Thân",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 1969,
+        "tuoiam": "Kỷ Dậu",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 1970,
+        "tuoiam": "Canh Tuất",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    },
+    {
+        "namsinh": 1971,
+        "tuoiam": "Tân Hợi",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    },
+    {
+        "namsinh": 1972,
+        "tuoiam": "Nhâm Tý",
+        "menh": "Thủy",
+        "banmenh": "Đen, xanh nước biển",
+        "tuongsinh": "Trắng, xám, vàng nhạt",
+        "tuongkhac": "Nâu, vàng đậm"
+    },
+    {
+        "namsinh": 1973,
+        "tuoiam": "Quý Sửu",
+        "menh": "Thủy",
+        "banmenh": "Đen, xanh nước biển",
+        "tuongsinh": "Trắng, xám, vàng nhạt",
+        "tuongkhac": "Nâu, vàng đậm"
+    },
+    {
+        "namsinh": 1974,
+        "tuoiam": "Giáp Dần",
+        "menh": "Mộc",
+        "banmenh": "Xanh lá cây",
+        "tuongsinh": "Đen, xanh nước biển",
+        "tuongkhac": "Trắng, xám, vàng nhạt"
+    },
+    {
+        "namsinh": 1975,
+        "tuoiam": "Ất Mão",
+        "menh": "Mộc",
+        "banmenh": "Xanh lá cây",
+        "tuongsinh": "Đen, xanh nước biển",
+        "tuongkhac": "Trắng, xám, vàng nhạt"
+    },
+    {
+        "namsinh": 1976,
+        "tuoiam": "Bính Thìn",
+        "menh": "Hỏa",
+        "banmenh": "Tím, cam, đỏ, hồng",
+        "tuongsinh": "Xanh lá cây",
+        "tuongkhac": "Đen, xanh nước biển"
+    },
+    {
+        "namsinh": 1977,
+        "tuoiam": "Đinh Tỵ",
+        "menh": "Hỏa",
+        "banmenh": "Tím, cam, đỏ, hồng",
+        "tuongsinh": "Xanh lá cây",
+        "tuongkhac": "Đen, xanh nước biển"
+    },
+    {
+        "namsinh": 1978,
+        "tuoiam": "Mậu Ngọ",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 1979,
+        "tuoiam": "Kỷ Mùi",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 1980,
+        "tuoiam": "Canh Thân",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    },
+    {
+        "namsinh": 1981,
+        "tuoiam": "Tân Dậu",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    },
+    {
+        "namsinh": 1982,
+        "tuoiam": "Nhâm Tuất",
+        "menh": "Thủy",
+        "banmenh": "Đen, xanh nước biển",
+        "tuongsinh": "Trắng, xám, vàng nhạt",
+        "tuongkhac": "Nâu, vàng đậm"
+    },
+    {
+        "namsinh": 1983,
+        "tuoiam": "Quý Hợi",
+        "menh": "Thủy",
+        "banmenh": "Đen, xanh nước biển",
+        "tuongsinh": "Trắng, xám, vàng nhạt",
+        "tuongkhac": "Nâu, vàng đậm"
+    },
+    {
+        "namsinh": 1984,
+        "tuoiam": "Giáp Tý",
+        "menh": "Mộc",
+        "banmenh": "Xanh lá cây",
+        "tuongsinh": "Đen, xanh nước biển",
+        "tuongkhac": "Trắng, xám, vàng nhạt"
+    },
+    {
+        "namsinh": 1985,
+        "tuoiam": "Ất Sửu",
+        "menh": "Mộc",
+        "banmenh": "Xanh lá cây",
+        "tuongsinh": "Đen, xanh nước biển",
+        "tuongkhac": "Trắng, xám, vàng nhạt"
+    },
+    {
+        "namsinh": 1986,
+        "tuoiam": "Bính Dần",
+        "menh": "Hỏa",
+        "banmenh": "Tím, cam, đỏ, hồng",
+        "tuongsinh": "Xanh lá cây",
+        "tuongkhac": "Đen, xanh nước biển"
+    },
+    {
+        "namsinh": 1987,
+        "tuoiam": "Đinh Mão",
+        "menh": "Hỏa",
+        "banmenh": "Tím, cam, đỏ, hồng",
+        "tuongsinh": "Xanh lá cây",
+        "tuongkhac": "Đen, xanh nước biển"
+    },
+    {
+        "namsinh": 1988,
+        "tuoiam": "Mậu Thìn",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 1989,
+        "tuoiam": "Kỷ Tỵ",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 1990,
+        "tuoiam": "Canh Ngọ",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    },
+    {
+        "namsinh": 1991,
+        "tuoiam": "Tân Mùi",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    },
+    {
+        "namsinh": 1992,
+        "tuoiam": "Nhâm Thân",
+        "menh": "Thủy",
+        "banmenh": "Đen, xanh nước biển",
+        "tuongsinh": "Trắng, xám, vàng nhạt",
+        "tuongkhac": "Nâu, vàng đậm"
+    },
+    {
+        "namsinh": 1993,
+        "tuoiam": "Quý Dậu",
+        "menh": "Thủy",
+        "banmenh": "Đen, xanh nước biển",
+        "tuongsinh": "Trắng, xám, vàng nhạt",
+        "tuongkhac": "Nâu, vàng đậm"
+    },
+    {
+        "namsinh": 1994,
+        "tuoiam": "Giáp Tuất",
+        "menh": "Mộc",
+        "banmenh": "Xanh lá cây",
+        "tuongsinh": "Đen, xanh nước biển",
+        "tuongkhac": "Trắng, xám, vàng nhạt"
+    },
+    {
+        "namsinh": 1995,
+        "tuoiam": "Ất Hợi",
+        "menh": "Mộc",
+        "banmenh": "Xanh lá cây",
+        "tuongsinh": "Đen, xanh nước biển",
+        "tuongkhac": "Trắng, xám, vàng nhạt"
+    },
+    {
+        "namsinh": 1996,
+        "tuoiam": "Bính Tý",
+        "menh": "Hỏa",
+        "banmenh": "Tím, cam, đỏ, hồng",
+        "tuongsinh": "Xanh lá cây",
+        "tuongkhac": "Đen, xanh nước biển"
+    },
+    {
+        "namsinh": 1997,
+        "tuoiam": "Đinh Sửu",
+        "menh": "Hỏa",
+        "banmenh": "Tím, cam, đỏ, hồng",
+        "tuongsinh": "Xanh lá cây",
+        "tuongkhac": "Đen, xanh nước biển"
+    },
+    {
+        "namsinh": 1998,
+        "tuoiam": "Mậu Dần",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 1999,
+        "tuoiam": "Kỷ Mão",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 2000,
+        "tuoiam": "Canh Thìn",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    },
+    {
+        "namsinh": 2001,
+        "tuoiam": "Tân Tỵ",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    },
+    {
+        "namsinh": 2002,
+        "tuoiam": "Nhâm Ngọ",
+        "menh": "Thủy",
+        "banmenh": "Đen, xanh nước biển",
+        "tuongsinh": "Trắng, xám, vàng nhạt",
+        "tuongkhac": "Nâu, vàng đậm"
+    },
+    {
+        "namsinh": 2003,
+        "tuoiam": "Quý Mùi",
+        "menh": "Thủy",
+        "banmenh": "Đen, xanh nước biển",
+        "tuongsinh": "Trắng, xám, vàng nhạt",
+        "tuongkhac": "Nâu, vàng đậm"
+    },
+    {
+        "namsinh": 2004,
+        "tuoiam": "Giáp Thân",
+        "menh": "Mộc",
+        "banmenh": "Xanh lá cây",
+        "tuongsinh": "Đen, xanh nước biển",
+        "tuongkhac": "Trắng, xám, vàng nhạt"
+    },
+    {
+        "namsinh": 2005,
+        "tuoiam": "Ất Dậu",
+        "menh": "Mộc",
+        "banmenh": "Xanh lá cây",
+        "tuongsinh": "Đen, xanh nước biển",
+        "tuongkhac": "Trắng, xám, vàng nhạt"
+    },
+    {
+        "namsinh": 2006,
+        "tuoiam": "Bính Tuất",
+        "menh": "Hỏa",
+        "banmenh": "Tím, cam, đỏ, hồng",
+        "tuongsinh": "Xanh lá cây",
+        "tuongkhac": "Đen, xanh nước biển"
+    },
+    {
+        "namsinh": 2007,
+        "tuoiam": "Đinh Hợi",
+        "menh": "Hỏa",
+        "banmenh": "Tím, cam, đỏ, hồng",
+        "tuongsinh": "Xanh lá cây",
+        "tuongkhac": "Đen, xanh nước biển"
+    },
+    {
+        "namsinh": 2008,
+        "tuoiam": "Mậu Tý",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 2009,
+        "tuoiam": "Kỷ Sửu",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 2010,
+        "tuoiam": "Canh Dần",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    },
+    {
+        "namsinh": 2011,
+        "tuoiam": "Tân Mão",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    },
+    {
+        "namsinh": 2012,
+        "tuoiam": "Nhâm Thìn",
+        "menh": "Thủy",
+        "banmenh": "Đen, xanh nước biển",
+        "tuongsinh": "Trắng, xám, vàng nhạt",
+        "tuongkhac": "Nâu, vàng đậm"
+    },
+    {
+        "namsinh": 2013,
+        "tuoiam": "Quý Tỵ",
+        "menh": "Thủy",
+        "banmenh": "Đen, xanh nước biển",
+        "tuongsinh": "Trắng, xám, vàng nhạt",
+        "tuongkhac": "Nâu, vàng đậm"
+    },
+    {
+        "namsinh": 2014,
+        "tuoiam": "Giáp Ngọ",
+        "menh": "Mộc",
+        "banmenh": "Xanh lá cây",
+        "tuongsinh": "Đen, xanh nước biển",
+        "tuongkhac": "Trắng, xám, vàng nhạt"
+    },
+    {
+        "namsinh": 2015,
+        "tuoiam": "Ất Mùi",
+        "menh": "Mộc",
+        "banmenh": "Xanh lá cây",
+        "tuongsinh": "Đen, xanh nước biển",
+        "tuongkhac": "Trắng, xám, vàng nhạt"
+    },
+    {
+        "namsinh": 2016,
+        "tuoiam": "Bính Thân",
+        "menh": "Hỏa",
+        "banmenh": "Tím, cam, đỏ, hồng",
+        "tuongsinh": "Xanh lá cây",
+        "tuongkhac": "Đen, xanh nước biển"
+    },
+    {
+        "namsinh": 2017,
+        "tuoiam": "Đinh Dậu",
+        "menh": "Hỏa",
+        "banmenh": "Tím, cam, đỏ, hồng",
+        "tuongsinh": "Xanh lá cây",
+        "tuongkhac": "Đen, xanh nước biển"
+    },
+    {
+        "namsinh": 2018,
+        "tuoiam": "Mậu Tuất",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 2019,
+        "tuoiam": "Kỷ Hợi",
+        "menh": "Thổ",
+        "banmenh": "Nâu, vàng đậm",
+        "tuongsinh": "Tím, cam, đỏ, hồng",
+        "tuongkhac": "Xanh lá cây"
+    },
+    {
+        "namsinh": 2020,
+        "tuoiam": "Canh Tý",
+        "menh": "Mộc",
+        "banmenh": "Xanh lá cây",
+        "tuongsinh": "Đen, xanh nước biển",
+        "tuongkhac": "Trắng, xám, vàng nhạt"
+    },
+    {
+        "namsinh": 2021,
+        "tuoiam": "Tân Sửu",
+        "menh": "Mộc",
+        "banmenh": "Xanh lá cây",
+        "tuongsinh": "Đen, xanh nước biển",
+        "tuongkhac": "Trắng, xám, vàng nhạt"
+    },
+    {
+        "namsinh": 2022,
+        "tuoiam": "Nhâm Dần",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    },
+    {
+        "namsinh": 2023,
+        "tuoiam": "Quý Mão",
+        "menh": "Kim",
+        "banmenh": "Trắng, xám, vàng nhạt",
+        "tuongsinh": "Nâu, vàng đậm",
+        "tuongkhac": "Tím, cam, đỏ, hồng"
+    }
+]
