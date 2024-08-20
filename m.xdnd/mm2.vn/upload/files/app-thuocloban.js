@@ -7,7 +7,7 @@ function getAppData(token) {
   $('.loban-scroller').css('opacity', '0');
   $.ajax({
     type: "GET",
-    url: "/mm2.vn/upload/files/loban.json",
+    url: "/m.xdnd/mm2.vn/upload/files/loban.json",
   }).done(function (res) {
     try {
       dataLoban = res;

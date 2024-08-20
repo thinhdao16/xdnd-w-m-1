@@ -6,7 +6,7 @@ let nguhanh;
 function getAppData(token) {
   $.ajax({
     type: "GET",
-    url: "/upload/files/xemhuong.json",
+    url: "/xdnd/upload/files/xemhuong.json",
   }).done(function (res) {
     try {
       dulieu = res
@@ -18,7 +18,7 @@ function getAppData(token) {
 
   $.ajax({
     type: "GET",
-    url: "/upload/files/nguhanh-xemhuonglamnha.json",
+    url: "/xdnd/upload/files/nguhanh-xemhuonglamnha.json",
   }).done(function (res) {
     try {
       nguhanh = res;

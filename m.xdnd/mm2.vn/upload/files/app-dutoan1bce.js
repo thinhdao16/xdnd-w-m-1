@@ -9,7 +9,7 @@ let dongia, thongso, thongso_nhapho, thongso_biethu, thongso_cap4;
 function getAppData(token) {
   $.ajax({
     type: "GET",
-    url: "/mm2.vn/upload/files/location.json",
+    url: "/m.xdnd/mm2.vn/upload/files/location.json",
   }).done(function (res) {
     try {
       dongia = res
@@ -26,7 +26,7 @@ function getAppData(token) {
 
   $.ajax({
     type: "GET",
-    url: "/mm2.vn/upload/files/thongso-nhapho.json",
+    url: "/m.xdnd/mm2.vn/upload/files/thongso-nhapho.json",
   }).done(function (res) {
     try {
       thongso_nhapho = res;
@@ -38,7 +38,7 @@ function getAppData(token) {
 
   $.ajax({
     type: "GET",
-    url: "/mm2.vn/upload/files/thongso-bietthu.json",
+    url: "/m.xdnd/mm2.vn/upload/files/thongso-bietthu.json",
   }).done(function (res) {
     try {
       thongso_biethu = res;
@@ -50,7 +50,7 @@ function getAppData(token) {
 
   $.ajax({
     type: "GET",
-    url: "/mm2.vn/upload/files/thongso-cap4.json",
+    url: "/m.xdnd/mm2.vn/upload/files/thongso-cap4.json",
   }).done(function (res) {
     try {
       thongso_cap4 = res;

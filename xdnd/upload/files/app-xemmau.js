@@ -4,7 +4,7 @@ let dulieu;
 function getAppData(token) {
   $.ajax({
     type: "GET",
-    url: "/upload/files/xemmau.json",
+    url: "/xdnd/upload/files/xemmau.json",
   }).done(function (res) {
     try {
       dulieu = res
