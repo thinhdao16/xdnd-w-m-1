@@ -507,6 +507,15 @@
       right: 20px !important;
     }
   </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script>
+    (function () {
+      emailjs.init({
+        publicKey: "oR8gfaCVWaTU0qNQQ",
+      });
+    })();
+  </script>
 </head>
 
 <body>
@@ -614,6 +623,9 @@
           <input class="input is_name" type="text" placeholder="Họ và tên" data-required="true">
         </div>
         <div class="field">
+          <input class="input is_email" type="text" placeholder="Email" data-required="true">
+        </div>
+        <div class="field">
           <input class="input is_phone" type="text" placeholder="Điện thoại" data-required="true">
         </div>
         <div class="field">
@@ -700,33 +712,58 @@ Tum mái: phòng thờ và giặt phơi muốn không gian thoáng mát, nhiều
       lang: 'vn'
     };
     function submitSubscribe() {
-      const code = 'subscribe';
+      event.preventDefault();
+      console.log("first")
       const form = 'form_subscribe';
       const msg = $(`#${form} .is_msg`);
       const name = $(`#${form} .is_name`).val();
       const phone = $(`#${form} .is_phone`).val();
-      const email = '';
-      const address = '';
+      const email = $(`#${form} .is_email`).val();
+      const address = ''; // Address is empty here
       const content = $(`#${form} .is_content`).val();
 
       if (checkRequired(form)) {
-        console.log(code, name, phone, email, address, content);
+        console.log('contact', name, phone, email, address, content);
         msg.html('Đang gửi thông tin...');
-        $.ajax({
-          type: "POST",
-          url: "/APIv1/Form/Send",
-          data: { code, name, phone, email, address, content },
-          dataType: "json",
-          success: function (res) {
-            if (res.status === true) {
-              location.href = 'cam-on.html';
-            } else {
-              msg.html(res.msg);
-            }
-          }
-        });
-      }
-      else {
+
+        // Collect form data using jQuery
+        let params = {
+          name: name,
+          email: email,
+          subject: phone,
+          message: content
+        };
+
+        // Get the email input value
+        const emailValue = email.trim();
+
+        // Check if email is empty
+        if (emailValue === "") {
+          alert("Please enter your email address.");
+          return; // Prevent form submission if email is empty
+        } else {
+          // Define your EmailJS service and template IDs
+          const serviceID = 'service_hqzp1ys'; // Replace with your actual service ID
+          const templateID = 'template_cjsu3gg'; // Replace with your actual template ID
+
+          // Send the email using EmailJS
+          emailjs.send(serviceID, templateID, params)
+            .then(response => {
+              if (response.status === 200) {
+                alert('Đã gửi thông tin liên hệ!');
+                // Clear the form inputs
+                $(`#${form} .input`).val('');
+                msg.html(''); // Clear any previous messages
+              } else {
+                msg.html('There was an error sending the email.');
+              }
+            })
+            .catch(error => {
+              console.error('Failed to send email:', error);
+              msg.html('An error occurred while sending your message. Please try again later.');
+            });
+        }
+      } else {
         msg.html('Vui lòng nhập đầy đủ thông tin');
       }
     }
