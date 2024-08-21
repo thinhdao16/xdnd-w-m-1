@@ -34,6 +34,7 @@ function reset() {
 
 function submitStep1() {
   namsinh = $('#input_namsinh').val() !== '' ? parseInt($('#input_namsinh').val()) : 0;
+  console.log(namsinh)
   namxay = $('#input_namxay').val() !== '' ? parseInt($('#input_namxay').val()) : 0;
   if (namsinh > 0 && namxay > 0) {
     $('#step1').addClass('is-hidden');

@@ -359,6 +359,38 @@
             "value": "Lục Hoang ốc"
         }
     ],
+    "cunghoangoc": [
+        {
+            "name": "Nhất cát",
+            "status": "Tốt",
+            "value": "Làm nhà sẽ có chốn An Cư, mọi việc hanh thông"
+        },
+        {
+            "name": "Nhị Nghi",
+            "status": "Tốt",
+            "value": "Làm nhà sẽ có lợi, hưng vượng, giàu có"
+        },
+        {
+            "name": "Tam địa sát",
+            "status": "Xấu",
+            "value": "Làm nhà phạm, gia chủ có thể mặc bệnh tật"
+        },
+        {
+            "name": "Tứ tấn tài",
+            "status": "Tốt",
+            "value": "Làm nhà phúc lộc sẽ tới."
+        },
+        {
+            "name": "Ngũ thụ tử",
+            "status": "Xấu",
+            "value": "Trong nhà chia rẽ, lâm vào cảnh ly biệt"
+        },
+        {
+            "name": "Lục Hoang ốc",
+            "status": "Xấu",
+            "value": "Làm nhà phạm, khó thành đạt được"
+        }
+    ],
     "tuoitot": [
         {
             "id": 2020,
