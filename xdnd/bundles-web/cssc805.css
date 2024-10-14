@@ -3414,16 +3414,13 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @font-face {
-   font-family: "feather";
-   src: url('../Asset/iconfeather/fonts/feathere8ab.eot?t=1525787366991');
-   /* IE9*/
-   src: url('../Asset/iconfeather/fonts/feathere8ab.eot?t=1525787366991#iefix') format('embedded-opentype'),
-      /* IE6-IE8 */
+   font-family: "Gilroy";
+   src: url('../Asset/iconfeather/fonts/SVN-Gilroy\ XBold\ Italic.otf') format('opentype');
+
+   /* src: url('../Asset/iconfeather/fonts/feathere8ab.eot?t=1525787366991#iefix') format('embedded-opentype'),
       url('../Asset/iconfeather/fonts/feathere8ab.woff?t=1525787366991') format('woff'),
-      /* chrome, firefox */
       url('../Asset/iconfeather/fonts/feathere8ab.ttf?t=1525787366991') format('truetype'),
-      /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-      url('../Asset/iconfeather/fonts/feathere8ab.svg?t=1525787366991#feather') format('svg');
+      url('../Asset/iconfeather/fonts/feathere8ab.svg?t=1525787366991#feather') format('svg'); */
    /* iOS 4.1- */
 }
 
@@ -15982,15 +15979,15 @@ print {
 }
 
 .is-family-primary {
-   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important
+   font-family: 'Gilroy', sans-serif !important;
 }
 
 .is-family-secondary {
-   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important
+   font-family: 'Gilroy', sans-serif !important;
 }
 
 .is-family-sans-serif {
-   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important
+   font-family: 'Gilroy', sans-serif !important;
 }
 
 .is-family-monospace {
