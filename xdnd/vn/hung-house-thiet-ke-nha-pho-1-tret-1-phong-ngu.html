@@ -123,7 +123,7 @@
       height: 72px;
     }
 
-    .navbar-brand {
+    .navbar-brand { display: flex; justify-content: space-between; align-items: center;
       min-width: auto;
     }
 
@@ -662,7 +662,17 @@
             <img src="../upload/images/system/logo.png" alt="">
           </a>
 
-          <a class="navbar-burger burger">
+           <div style="display: flex; gap:10px; ">
+            <div style="color: #333232;" >
+              <i class="fas fa-phone-alt" style="color: #065590;"></i>
+              <a href="tel:0975647951">(+84) 975647951</a>
+            </div>
+            <div style="color: #333232;">
+              <i class="fas fa-envelope" style="color: #065590;"></i>
+              <a href="mailto:ktbtx.vn@gmail.com">ktbtx.vn@gmail.com</a>
+            </div>
+          </div>
+<a class="navbar-burger burger">
             <span></span>
             <span></span>
             <span></span>
@@ -671,38 +681,36 @@
 
         <div class="navbar-menu">
           <div class="navbar-start" data-bind="true" data-rows="0" data-type="nav" data-source="header-nav"><a
-              class="navbar-item" href="index.html"><span>Trang chủ</span></a>
-            <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link" href="gioi-thieu.html">Giới
-                thiệu</a>
+              class="navbar-item" href="index.html"><span>TRANG CHỦ</span></a>
+            <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link" href="gioi-thieu.html">GIỚI THIỆU</a>
               <div class="navbar-dropdown"><a class="navbar-item" href="ve-chung-toi.html">Về chúng tôi</a><a
                   class="navbar-item" href="tam-nhin-su-menh.html">Tầm nhìn - sứ mệnh</a><a class="navbar-item"
-                  href="khuyen-mai-mm2.html">Khuyến mại - Báo giá</a><a class="navbar-item"
+                  style="display:none" href="khuyen-mai-mm2.html">Khuyến mại - Báo giá</a><a class="navbar-item"
                   href="chinh-sach-cua-mm2.html">Chính sách của Bầu Trời Xanh</a><a class="navbar-item"
                   href="bao-gia-thiet-ke-cua-milimet-vuong.html" style="display:none">Báo giá thiết kế</a></div>
             </div>
             <a class="navbar-item"
               href="https://www.ktbtx.vn/xdnd/vn/bao-gia-thiet-ke-cua-milimet-vuong.html"><span>Bảng giá</span></a>
-            <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link" href="du-an.html">Mẫu nhà đẹp</a>
-              <div class="navbar-dropdown"><a class="navbar-item" href="du-an.html">Các thiết kế của Bầu Trời Xanh</a><a
-                  class="navbar-item" href="cong-trinh-thuc-te.html">Công trình thực tế</a><a class="navbar-item"
-                  href="maunhamm2.html">Mẫu nhà
-                  Bầu Trời Xanh</a></div>
+            <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link" href="du-an.html">MẪU NHÀ ĐẸP</a>
+              <div class="navbar-dropdown"><a class="navbar-item" href="du-an.html">Nhà vườn đẹp</a><a
+                  class="navbar-item" href="cong-trinh-thuc-te.html">Nhà phố đẹp</a><a class="navbar-item"
+                  href="maunhamm2.html">Biệt thự đẹp</a></div>
             </div>
             <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link" href="#" style="display:none">Thư
                 viện</a>
               <div class="navbar-dropdown"><a class="navbar-item" href="hinh-anh.html">Hình ảnh</a><!-- <a
                   class="navbar-item" href="videos.html">Videos</a> --></div>
             </div>
-            <a class="navbar-item" href="https://www.ktbtx.vn/xdnd/vn/phong-thuy.html"><span>Phong thủy</span></a><a
+            <a class="navbar-item" href="https://www.ktbtx.vn/xdnd/vn/phong-thuy.html"><span>PHONG THỦY</span></a><a
               class="navbar-item" href="https://www.ktbtx.vn/xdnd/vn/du-doan.html"><span>Dự toán</span></a><a
               class="navbar-item" href="https://www.ktbtx.vn/xdnd/vn/giam-sat-tac-gia.html"><span>Giám sát tác
                 giả</span></a>
-            <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link" href="cam-nang.html">Cẩm nang</a>
+            <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link" href="cam-nang.html">CẨM NANG</a>
               <div class="navbar-dropdown"><a class="navbar-item" href="kinh-nghiem-xay-nha.html">Kinh nghiệm xây
                   nhà</a><a class="navbar-item" href="thu-tuc-quy-dinh.html">Thủ tục - quy định</a><a
                   class="navbar-item" href="nha-dep-4-phuong.html">Nhà đẹp 4 phương</a></div>
-            </div><a class="navbar-item" href="ung-dung.html"><span>Ứng dụng</span></a><a class="navbar-item"
-              href="lien-he.html"><span>Liên hệ</span></a>
+            </div><a class="navbar-item" href="ung-dung.html"><span>ỨNG DỤNG</span></a><a class="navbar-item"
+              href="lien-he.html"><span>LIÊN HỆ</span></a>
           </div>
           <!-- <div class="navbar-end">
             <div class="navbar-item language_code">
@@ -744,7 +752,7 @@
             <nav class="breadcrumb">
               <ul data-bind="true" data-type="breadcrumb" data-source="638421505240772619">
                 <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="../index.html"
-                    itemprop="url"><span itemprop="title">Trang chủ</span></a></li>
+                    itemprop="url"><span itemprop="title">TRANG CHỦ</span></a></li>
                 <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="du-an.html"
                     itemprop="url"><span itemprop="title">Dự án</span></a></li>
                 <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="nha-pho.html"
@@ -1030,7 +1038,7 @@
               </li>
 
               <li>
-                <a href="biet-thu.html">Công trình thực tế</a>
+                <a href="biet-thu.html">Nhà phố đẹp</a>
               </li>
             </ul>
           </li>
@@ -1049,10 +1057,10 @@
           </li>
 
           <li class="column is-one-fifth">
-            <div class="mb-2 color_main">Cẩm nang</div>
+            <div class="mb-2 color_main">CẨM NANG</div>
             <ul data-repeat="true" data-rows="5" data-type="nav" data-source="childs">
               <li>
-                <a href="phong-thuy.html">Phong thủy</a>
+                <a href="phong-thuy.html">PHONG THỦY</a>
               </li>
 
               <li>
