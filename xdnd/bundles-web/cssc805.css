@@ -6431,16 +6431,17 @@ fieldset[disabled] .button.is-warning.is-inverted.is-outlined {
 }
 
 .button.is-danger {
-   background-color: #f14668;
+   background-color: #BA2031;
    border-color: transparent;
    color: #fff
 }
 
 .button.is-danger.is-hovered,
 .button.is-danger:hover {
-   background-color: #f03a5f;
+   background-color: white;
    border-color: transparent;
-   color: #fff
+   color: #BA2031;
+   border: 1px solid #BA2031;
 }
 
 .button.is-danger.is-focused,
